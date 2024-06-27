@@ -1,0 +1,92 @@
+[
+    {
+      "id": "1",
+      "Title": "Exploring the Beauty of National Parks",
+      "Content": "National parks offer breathtaking views and a chance to connect with nature. This article explores some of the most beautiful national parks in the world.",
+      "Image": "https://example.com/images/national-parks.jpg",
+      "CreatedAt": "2023-01-15T10:30:00Z",
+      "UpdatedAt": "2023-01-15T10:30:00Z"
+    },
+  
+    {
+      "id": "2",
+      "Title": "The Future of Artificial Intelligence",
+      "Content": "Artificial Intelligence (AI) is rapidly advancing and transforming various industries. This article discusses the future prospects and potential challenges of AI.",
+      "Image": "https://example.com/images/ai-future.jpg",
+      "CreatedAt": "2023-02-10T11:45:00Z",
+      "UpdatedAt": "2023-02-10T11:45:00Z"
+    },
+  
+    {
+      "id": "3",
+      "Title": "Healthy Eating: Tips and Tricks",
+      "Content": "Maintaining a healthy diet is essential for overall well-being. This article provides useful tips and tricks for eating healthy.",
+      "Image": "https://example.com/images/healthy-eating.jpg",
+      "CreatedAt": "2023-03-05T09:00:00Z",
+      "UpdatedAt": "2023-03-05T09:00:00Z"
+    },
+  
+    {
+      "id": "4",
+      "Title": "Travel Guide: Top 10 Destinations for 2024",
+      "Content": "Planning a vacation? Check out our travel guide featuring the top 10 must-visit destinations for 2024.",
+      "Image": "https://example.com/images/travel-guide.jpg",
+      "CreatedAt": "2023-04-20T13:20:00Z",
+      "UpdatedAt": "2023-04-20T13:20:00Z"
+    },
+  
+    {
+      "id": "5",
+      "Title": "The Impact of Climate Change",
+      "Content": "Climate change is one of the most pressing issues of our time. This article explores its impact on the environment and what can be done to mitigate it.",
+      "Image": "https://example.com/images/climate-change.jpg",
+      "CreatedAt": "2023-05-18T15:10:00Z",
+      "UpdatedAt": "2023-05-18T15:10:00Z"
+    },
+  
+    {
+      "id": "6",
+      "Title": "Advancements in Renewable Energy",
+      "Content": "Renewable energy is crucial for a sustainable future. This article highlights the latest advancements in renewable energy technologies.",
+      "Image": "https://example.com/images/renewable-energy.jpg",
+      "CreatedAt": "2023-06-25T12:00:00Z",
+      "UpdatedAt": "2023-06-25T12:00:00Z"
+    },
+    
+    {
+      "id": "7",
+      "Title": "A Guide to Mindfulness Meditation",
+      "Content": "Mindfulness meditation can significantly improve mental health and well-being. This guide provides an introduction to mindfulness meditation and its benefits.",
+      "Image": "https://example.com/images/mindfulness.jpg",
+      "CreatedAt": "2023-07-30T08:30:00Z",
+      "UpdatedAt": "2023-07-30T08:30:00Z"
+    },
+    
+    {
+      "id": "8",
+      "Title": "Innovations in Space Exploration",
+      "Content": "Space exploration is entering a new era with numerous innovations and missions. This article covers the latest developments in space technology.",
+      "Image": "https://example.com/images/space-exploration.jpg",
+      "CreatedAt": "2023-08-15T14:50:00Z",
+      "UpdatedAt": "2023-08-15T14:50:00Z"
+    },
+    
+    {
+      "id": "9",
+      "Title": "The Evolution of Smartphones",
+      "Content": "Smartphones have revolutionized communication and technology. This article traces the evolution of smartphones over the years.",
+      "Image": "https://example.com/images/smartphones.jpg",
+      "CreatedAt": "2023-09-22T16:40:00Z",
+      "UpdatedAt": "2023-09-22T16:40:00Z"
+    },
+    
+    {
+      "id": "10",
+      "Title": "The Art of Baking: Tips for Beginners",
+      "Content": "Baking can be a fun and rewarding hobby. This article provides essential tips for beginners to get started with baking.",
+      "Image": "https://example.com/images/baking.jpg",
+      "CreatedAt": "2023-10-10T07:15:00Z",
+      "UpdatedAt": "2023-10-10T07:15:00Z"
+    }
+  ]
+  
