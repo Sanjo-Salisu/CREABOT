@@ -40,7 +40,7 @@ const jsonData = JSON.stringify(jsonObject, null, 2);
     path.join(__dirname, "../data/articles.json"), jsonData, "utf8", 
     (error, data) => {
       if (error) {
-        return res.join({ error: "Error writing to file" });
+        return res.join({ error: "Error writing to file ❌" });
     }
         return res.json({message: "File updated successfully"}); 
     }
@@ -57,7 +57,6 @@ const jsonData = JSON.stringify(jsonObject, null, 2);
             path.join(__dirname, "../data/articles.json"), "utf8", 
             (error, data) => {
                 if (error) {
-                    return res.json({ error: "Cannot find file" });
                 }
     
                 let jsonData = JSON.parse(data);
@@ -66,9 +65,10 @@ const jsonData = JSON.stringify(jsonObject, null, 2);
                     path.join(__dirname, "../data/articles.json"), JSON.stringify(jsonData, null, 2), "utf8", 
                     (error) => {
                         if (error) {
-                            return res.json({ error: "Error updating file" });
+                    return res.json({ error: "Cannot find file " });
+                            return res.json({ error: "Error updating file ❌" });
                         }
-                        return res.json({ message: "File updated successfully" });
+                        return res.json({ message: "File updated successfully"});
                     }
                 );
             }
@@ -76,5 +76,5 @@ const jsonData = JSON.stringify(jsonObject, null, 2);
     });
   
 
-module.exports = { router }; 
+ module.exports = { router }; 
 
