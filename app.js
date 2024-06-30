@@ -1,6 +1,12 @@
-const express = require('express');
-const { router: articlesRouter} = require("../routes/articlesRouter.js"); 
+const express = require("express");
+const { router: articlesRouter } = require("./routes/articlesRouter.js");
 const app = express();
+
+//Allows server to accept json data
+app.use(express.json());
+
+//Allows server to accept form data
+app.use(express.urlencoded({ extended: true }));
 
 /*
 PLAN 
@@ -18,7 +24,6 @@ PLAN
 6. deploy
 
 */
-
 
 /*
 BLOG
@@ -46,12 +51,12 @@ WEATHER API FUNCTIONALITY
 
 */
 
-app.use("/articles", articlesRouter); 
+app.use("/articles", articlesRouter);
 
-// app.get('/hello', (_req, res) => res.render("index")); 
+// app.get('/hello', (_req, res) => res.render("index"));
 
 // app.post("/hello", (_req, res) => {
 //     res.send('You just called the post method at "/hello"! \n');
 // })
 
-module.exports = { app: app};
+module.exports = { app: app };
