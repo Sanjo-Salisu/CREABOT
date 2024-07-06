@@ -25,7 +25,7 @@ router.get("", (_req, res) => {
       if (error) {
         return res.json({ error: "Cannot find file ❌" });
       }
-      return res.json(JSON.parse(data));
+      return res.render("index", { articles: JSON.parse(data) });
     }
   );
 });

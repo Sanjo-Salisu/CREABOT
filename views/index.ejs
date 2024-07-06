@@ -7,8 +7,27 @@
     <link rel="stylesheet" href="/index.css" type = "text/css" />
 </head>
 <body>
+    <div class="container">
+      
+    </div>
+<!--
+<% console.log("Articles: ", articles) %> 
+-->
 
-    <h1>Welcome to Our Web Page</h1>
+<!-- Map through the data and create template for each item -->
+
+<!--
+<%- 
+    articles.map((article) =>`
+    <div>
+      <h2>${article.Title}</h2>
+      <p>${article.Content}</p>
+      <p>${new Date(article.CreatedAt).toDateString()}</span>
+      <p>${new Date(article.UpdatedAt).toDateString()}</span>
+    </div>
+    `).join('')
+%> -->
 
 </body>
 </html>
+
